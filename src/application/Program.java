@@ -2,7 +2,7 @@ package application;
 
 import java.util.Scanner;
 
-import boardergame.Position;
+import boardergame.Board;
 
 public class Program {
 
@@ -10,9 +10,9 @@ public class Program {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		Position position = new Position(5, 6);
+		Board board = new Board(8,8);
 		
-		System.out.println(position);
+		System.out.println(board);
 		
 		sc.close();
 
