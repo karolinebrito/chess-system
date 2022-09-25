@@ -1,4 +1,4 @@
-package boardergame;
+package boardgame;
 
 public class Position {
 	
@@ -29,10 +29,6 @@ public class Position {
 	@Override
 	public String toString() {
 		return "Position [row=" + row + ", column=" + column + "]";
-	}
-
-	public void setValues(int row, int column) {
-		
 	}
 
 }
